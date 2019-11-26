@@ -1,0 +1,40 @@
+2019-11-25T17:08:14.972Z Error: quit
+2019-11-25T17:08:14.972Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-11-25T17:08:14.972Z     at Object.anykey (/usr/local/lib/heroku/node_modules/cli-ux/lib/prompt.js:48:18)
+2019-11-25T17:08:14.972Z     at async Login.login (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:43:21)
+2019-11-25T17:08:14.972Z     at async Login.run (/usr/local/lib/heroku/node_modules/@heroku-cli/plugin-auth/lib/commands/auth/login.js:11:9)
+2019-11-25T17:08:14.972Z     at async Login._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-11-25T17:08:14.972Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2019-11-25T17:08:14.972Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-11-25T17:08:14.972Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019/11/25 17:08:15 Error: Command failed: heroku login
+    at checkExecSyncError (child_process.js:621:11)
+    at Object.execSync (child_process.js:657:15)
+    at relogin (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
+    at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async V5._run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:34:20)
+    at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+    at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+    at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-11-25T17:08:35.845Z Error: quit
+2019-11-25T17:08:35.845Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-11-25T17:08:35.845Z     at Object.anykey (/usr/local/lib/heroku/node_modules/cli-ux/lib/prompt.js:48:18)
+2019-11-25T17:08:35.845Z     at async Login.login (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:43:21)
+2019-11-25T17:08:35.845Z     at async Login.run (/usr/local/lib/heroku/node_modules/@heroku-cli/plugin-auth/lib/commands/auth/login.js:11:9)
+2019-11-25T17:08:35.845Z     at async Login._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-11-25T17:08:35.845Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2019-11-25T17:08:35.845Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-11-25T17:08:35.845Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019/11/25 17:08:35 Error: Command failed: heroku login
+    at checkExecSyncError (child_process.js:621:11)
+    at Object.execSync (child_process.js:657:15)
+    at relogin (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
+    at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async V5._run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:34:20)
+    at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+    at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+    at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019/11/26 13:26:27 Error: getaddrinfo EAI_AGAIN api.heroku.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)

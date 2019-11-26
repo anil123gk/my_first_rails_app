@@ -1,7 +1,9 @@
 {
     "telemetry.machineId": "32d2e2b1fb6c970e174498b41b4f871eb4aca2f03cc55257d8faa5438e0a81db",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/anil/my_first_rails_app"
+        ],
         "files2": []
     },
     "lastKnownMenubarData": {
@@ -44,6 +46,21 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/anil/my_first_rails_app",
+                                        "external": "file:///home/anil/my_first_rails_app",
+                                        "path": "/home/anil/my_first_rails_app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/my_first_rails_app"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },
@@ -73,11 +90,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -152,8 +171,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -346,7 +364,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -545,8 +564,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1372,15 +1390,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/anil/.config/Code/Backups/1574530022790",
+            "folder": "file:///home/anil/my_first_rails_app",
+            "backupPath": "/home/anil/.config/Code/Backups/92c1fc6cee8eb8fa8322f374b816c25b",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 49,
                 "width": 1366,
-                "height": 719
+                "height": 638
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/anil"
 }

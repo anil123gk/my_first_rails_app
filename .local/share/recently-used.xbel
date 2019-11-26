@@ -13,4 +13,80 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/anil/.git/config" added="2019-11-25T16:38:25Z" modified="2019-11-25T16:38:25Z" visited="2019-11-25T16:38:25Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-11-25T16:38:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anil/.git/description" added="2019-11-25T16:38:58Z" modified="2019-11-25T16:38:58Z" visited="2019-11-25T16:38:58Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-11-25T16:38:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anil/.git/COMMIT_EDITMSG" added="2019-11-25T16:39:03Z" modified="2019-11-25T16:39:03Z" visited="2019-11-25T16:39:04Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-11-25T16:39:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anil/.ssh/id_rsa.pub" added="2019-11-25T16:43:16Z" modified="2019-11-25T16:50:11Z" visited="2019-11-25T16:43:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.0" exec="&apos;soffice %u&apos;" modified="2019-11-25T16:50:11Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anil/my_first_rails_app/Gemfile" added="2019-11-26T13:38:17Z" modified="2019-11-26T13:38:17Z" visited="2019-11-26T13:38:18Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-11-26T13:38:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anil/my_first_rails_app" added="2019-11-26T13:42:19Z" modified="2019-11-26T14:20:57Z" visited="2019-11-26T13:42:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-11-26T14:20:57Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

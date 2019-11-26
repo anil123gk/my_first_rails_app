@@ -33,46 +33,41 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 
-(xfce4-session:1123): xfce4-session-WARNING **: 21:34:42.641: xfsm_manager_load_session: Something wrong with /home/anil/.cache/sessions/xfce4-session-anil-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1121): xfce4-session-WARNING **: 19:45:36.844: xfsm_manager_load_session: Something wrong with /home/anil/.cache/sessions/xfce4-session-anil-VirtualBox:0, Does it exist? Permissions issue?
 
-(polkit-gnome-authentication-agent-1:1145): GLib-CRITICAL **: 21:34:43.957: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-gnome-authentication-agent-1:1142): GLib-CRITICAL **: 19:45:38.038: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-gnome-authentication-agent-1:1145): polkit-gnome-1-WARNING **: 21:34:43.958: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-gnome-authentication-agent-1:1142): polkit-gnome-1-WARNING **: 19:45:38.039: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(wrapper-2.0:1284): Gtk-WARNING **: 21:34:49.615: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+(nm-applet:1184): Gtk-WARNING **: 19:45:42.430: Can't set a parent on widget which has a parent
 
-** (wrapper-2.0:1283): WARNING **: 21:34:49.737: No outputs have backlight property
+(wrapper-2.0:1275): GLib-GIO-CRITICAL **: 19:45:42.850: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1279): GLib-GIO-CRITICAL **: 21:34:50.127: g_file_new_for_path: assertion 'path != NULL' failed
+(wrapper-2.0:1275): GLib-GIO-CRITICAL **: 19:45:42.850: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1279): GLib-GIO-CRITICAL **: 21:34:50.127: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1275): GLib-GObject-WARNING **: 19:45:42.851: invalid (NULL) pointer instance
 
-(wrapper-2.0:1279): GLib-GObject-WARNING **: 21:34:50.127: invalid (NULL) pointer instance
+(wrapper-2.0:1275): GLib-GObject-CRITICAL **: 19:45:42.851: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1279): GLib-GObject-CRITICAL **: 21:34:50.127: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1275): Gtk-WARNING **: 19:45:42.851: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1279): Gtk-WARNING **: 21:34:50.127: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(nm-applet:1184): Gdk-CRITICAL **: 19:45:42.909: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(wrapper-2.0:1279): Gtk-WARNING **: 21:34:50.261: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1275): Gtk-WARNING **: 19:45:43.083: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1283): Gtk-WARNING **: 21:34:50.797: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+** (wrapper-2.0:1279): WARNING **: 19:45:43.692: No outputs have backlight property
 
-(nm-applet:1185): Gtk-WARNING **: 21:34:50.911: Can't set a parent on widget which has a parent
+(wrapper-2.0:1280): Gtk-WARNING **: 19:45:43.754: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-(xfwm4:1134): xfwm4-WARNING **: 21:34:51.570: output size (1366x768) and logical screen size (1366x663) do not match
+(wrapper-2.0:1279): Gtk-WARNING **: 19:45:44.381: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1275): Gtk-WARNING **: 21:34:53.279: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1271): Gtk-WARNING **: 19:45:46.224: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
-
-(Thunar:1140): GLib-CRITICAL **: 21:35:54.070: g_key_file_set_string: assertion 'string != NULL' failed
-JavaScript error: chrome://messenger/content/messengercompose/MsgComposeCommands.js, line 3149: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsICommandManager.removeCommandObserver]
-[Parent 1517, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 1517, Gecko_IOThread] WARNING: pipe error (176): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 1517, Gecko_IOThread] WARNING: pipe error (155): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Option 'sandbox' is unknown. Ignoring.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Gtk-Message: 19:50:46.974: GtkDialog mapped without a transient parent. This is discouraged.

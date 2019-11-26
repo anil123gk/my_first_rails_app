@@ -1,2 +1,3 @@
 [Added Associations]
-application/vnd.ms-publisher=exo-file-manager.desktop;userapp-Mail Recipient-8H1RB0.desktop;xfce4-notes.desktop;
+application/vnd.ms-publisher=libreoffice-writer.desktop;exo-file-manager.desktop;userapp-Mail Recipient-8H1RB0.desktop;xfce4-notes.desktop;
+text/plain=mousepad.desktop;

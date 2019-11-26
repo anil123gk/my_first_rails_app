@@ -4,4 +4,4 @@
 [color]
 	ui = auto
 [credential]
-	helper = wincred
+	helper = store
